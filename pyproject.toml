@@ -1,7 +1,7 @@
 [project]
 name = "f2t-lab"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.0.1"
+description = "f2t-lab 是一个跟随 飞天闪客 的视频教程，一步步实现一个 Transformer 的代码库"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -11,13 +11,6 @@ dependencies = [
     "torch>=2.9.0",
     "torchvision>=0.24.0",
 ]
-
-[project.scripts]
-f2t-lab = "f2t_lab:main"
-
-[build-system]
-requires = ["uv_build>=0.8.11,<0.9.0"]
-build-backend = "uv_build"
 
 [tool.uv]
 index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
